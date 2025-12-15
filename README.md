@@ -17,3 +17,5 @@ Usado
 python -m streamlit run app.py
 
 NT: Use comentários em inglês. Modelo foi treinado usando base de dados em inglês e mantive sem tradução por enquanto para poder entregar.
+
+colab: https://colab.research.google.com/drive/1k75kItaOZVhjArZBM0VbQ4bYJlQbUVH-?usp=sharing
