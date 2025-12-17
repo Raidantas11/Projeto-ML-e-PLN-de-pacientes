@@ -9,6 +9,11 @@ from nltk.stem import WordNetLemmatizer
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from deep_translator import GoogleTranslator
 
+
+nltk.download("stopwords")
+nltk.download("wordnet")
+nltk.download("omw-1.4")
+
 st.set_page_config(page_title="Analise Medica de Comentarios", layout="centered")
 
 tfidf = joblib.load("tfidf_vectorizer.pkl")
